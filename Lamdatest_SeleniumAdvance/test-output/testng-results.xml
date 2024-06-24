@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="157797" started-at="2024-06-24T23:16:40 IST" finished-at="2024-06-24T23:19:17 IST">
+    <groups>
+    </groups>
+    <test name="Test_1" duration-ms="95641" started-at="2024-06-24T23:16:40 IST" finished-at="2024-06-24T23:18:15 IST">
+      <class name="com.lambdatest.testscenarios.SeleniumAdv_TestScenario">
+        <test-method status="PASS" signature="initBrowser(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.lambdatest.testscenarios.SeleniumAdv_TestScenario@2db7a79b]" name="initBrowser" is-config="true" duration-ms="46305" started-at="2024-06-24T23:16:40 IST" finished-at="2024-06-24T23:17:26 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[86.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows 11]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Execution_on_Chrome_Browser]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initBrowser -->
+        <test-method status="PASS" signature="TestScenario1()[pri:0, instance:com.lambdatest.testscenarios.SeleniumAdv_TestScenario@2db7a79b]" name="TestScenario1" duration-ms="47644" started-at="2024-06-24T23:17:26 IST" finished-at="2024-06-24T23:18:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestScenario1 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.lambdatest.testscenarios.SeleniumAdv_TestScenario@2db7a79b]" name="tearDown" is-config="true" duration-ms="1666" started-at="2024-06-24T23:18:13 IST" finished-at="2024-06-24T23:18:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.lambdatest.testscenarios.SeleniumAdv_TestScenario -->
+    </test> <!-- Test_1 -->
+    <test name="Test_2" duration-ms="62142" started-at="2024-06-24T23:18:15 IST" finished-at="2024-06-24T23:19:17 IST">
+      <class name="com.lambdatest.testscenarios.SeleniumAdv_TestScenario">
+        <test-method status="PASS" signature="initBrowser(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.lambdatest.testscenarios.SeleniumAdv_TestScenario@706a04ae]" name="initBrowser" is-config="true" duration-ms="15511" started-at="2024-06-24T23:18:15 IST" finished-at="2024-06-24T23:18:31 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[87.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[macOS Sierra]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Execution_on_Edge_Browser]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initBrowser -->
+        <test-method status="PASS" signature="TestScenario1()[pri:0, instance:com.lambdatest.testscenarios.SeleniumAdv_TestScenario@706a04ae]" name="TestScenario1" duration-ms="45057" started-at="2024-06-24T23:18:31 IST" finished-at="2024-06-24T23:19:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestScenario1 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.lambdatest.testscenarios.SeleniumAdv_TestScenario@706a04ae]" name="tearDown" is-config="true" duration-ms="1571" started-at="2024-06-24T23:19:16 IST" finished-at="2024-06-24T23:19:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.lambdatest.testscenarios.SeleniumAdv_TestScenario -->
+    </test> <!-- Test_2 -->
+  </suite> <!-- Suite -->
+</testng-results>

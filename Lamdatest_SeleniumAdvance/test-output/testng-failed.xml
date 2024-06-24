@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <test thread-count="1" name="Test_2(failed)" parallel="tests">
+    <parameter name="browser" value="Edge"/>
+    <parameter name="testcasename" value="Execution_on_Edge_Browser"/>
+    <parameter name="version" value="87.0"/>
+    <parameter name="platform" value="macOS Sierra"/>
+    <classes>
+      <class name="com.lambdatest.testscenarios.SeleniumAdv_TestScenario">
+        <methods>
+          <include name="tearDown"/>
+          <include name="TestScenario1"/>
+          <include name="initBrowser"/>
+        </methods>
+      </class> <!-- com.lambdatest.testscenarios.SeleniumAdv_TestScenario -->
+    </classes>
+  </test> <!-- Test_2(failed) -->
+</suite> <!-- Failed suite [Suite] -->
