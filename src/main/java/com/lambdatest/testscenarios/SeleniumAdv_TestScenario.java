@@ -83,8 +83,10 @@ public class SeleniumAdv_TestScenario extends SeleniumBase {
 
 		if(expectedURL.equals(actualCurrentURL)) {
 			System.out.println("Community url is matched");
+			executor.executeScript("lambda-status=passed");
 		} else {
 			System.out.println("Community url is not matched!");
+			executor.executeScript("lambda-status=failed");
 		}
 		
 	}
