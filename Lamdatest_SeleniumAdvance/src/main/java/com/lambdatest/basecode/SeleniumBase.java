@@ -97,7 +97,6 @@ public class SeleniumBase {
 
 	@AfterTest(alwaysRun =  true)
 	public void tearDown() {
-		driver.executeScript("lambda-status=" + "Pass");
 		if (driver != null) {
 			driver.quit();
 		}
