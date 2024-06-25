@@ -12,9 +12,9 @@
 
 Before you can start performing Java automation testing with Selenium, you would need to:
 
-- Install the latest **Java development environment** i.e. **JDK 1.8** or higher. We recommend using the latest version.
+- Install the latest **Java development environment** i.e. **JDK 1.8** or higher. We recommended to use the latest version.
 
-- Download the latest **Selenium Client** and its **WebDriver bindings** from the official website. Latest versions of Selenium Client and WebDriver are ideal for running your automation script on LambdaTest Selenium cloud grid.
+- Download the latest **Selenium Client** and its **WebDriver bindings** from the official website. The latest versions of Selenium Client and WebDriver are ideal for running your automation script on LambdaTest Selenium cloud grid.
 
 - Install **Maven** which supports **TestNG** framework out of the box. **Maven** can be downloaded and installed following the steps from [the official website](https://maven.apache.org/). Maven can also be installed easily.
 
@@ -32,7 +32,7 @@ Before you can start performing Java automation testing with Selenium, you would
 
 ### Configuring Your Test Capabilities
 
-You need to passing browser, browser version, and operating system information via the TestNG xml, along with LambdaTest Selenium grid capabilities via capabilities object. The capabilities object in the above code are defined as:
+You have to pass the browser, browser version, and operating system information via the TestNG xml, along with LambdaTest Selenium grid capabilities via the capabilities object. The capabilities object in the above code are defined as:
 
 		<parameter name="browser" value="Edge" />
 		<parameter name="version" value="87.0" />
@@ -43,10 +43,10 @@ You can generate capabilities for your test requirements with the help of our in
 
 ### Executing The Test
 
-**Step 4:** Test can be done through the TestNG xml file. to execute open the xml file from below path then Right click -> RunAs-> TestNG Suite.
+**Step 4:** Execution of the testcase can be done through the TestNG xml file. To execute open the xml file from below path then Right click -> RunAs-> TestNG Suite.
 "Lamdatest_SeleniumAdvance\TestScenarioRunnerFile_TestNG.xml"
 
-Your test results would be displayed on the test console and on LambdaTest automation dashboard. 
+Your test results will be displayed on the test console and on LambdaTest automation dashboard. 
 
 ## Run Parallel Tests Using TestNG
 
