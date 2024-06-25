@@ -50,7 +50,6 @@ public class SeleniumBase {
 	@BeforeTest
 	public void initBrowser(String browserName,String browserVersion,String osPlatform,String testcaseName) throws InterruptedException {
 		platformOfCurrentExecution = osPlatform;
-		System.out.println("browsername" +browserName+ "    "+platformOfCurrentExecution);
 		capabilities = new DesiredCapabilities();
 		capabilities.setCapability("browserName", browserName); //from testng xml
 		capabilities.setCapability("browserVersion", browserVersion); //from testng xml
