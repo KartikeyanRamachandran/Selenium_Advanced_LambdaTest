@@ -58,12 +58,14 @@ Here is an example `xml` file which would help you to run the test on various br
 
   <test thread-count="5" name="Test_1">
     <classes>
+				<!-- Add Parameters here -->
       <class name="com.lambdatest.testscenarios.SeleniumAdv_TestScenario"/>
     </classes>
   </test> <!-- Test -->
   
     <test thread-count="5" name="Test_2">
     <classes>
+				<!-- Add Parameters here -->
       <class name="com.lambdatest.testscenarios.SeleniumAdv_TestScenario"/>
     </classes>
   </test> <!-- Test -->
